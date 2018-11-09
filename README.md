@@ -1,2 +1,2 @@
 # redmine-demo
-demo
+demodemo
