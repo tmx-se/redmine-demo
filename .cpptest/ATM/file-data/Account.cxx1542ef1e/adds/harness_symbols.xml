@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <TranslationUnitId>2224928520_17204_4014160478</TranslationUnitId>
+    <HasCoverageInfo>true</HasCoverageInfo>
+    <File name="C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\Account.cxx" id="2"/>
+    <File name="C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\include\Account.hxx" id="1"/>
+    <Function id="_ZN7Account10getBalanceEv" name="HAccountZKgetBalanceFXvZ" decorated_name="double Account::getBalance(void)" sorted_name="Account::getBalance" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>double (::Account::</declaration_prefix>
+         <declaration_suffix>_Stub_getBalance) (void) </declaration_suffix>
+         <trigger_name>Account::getBalance</trigger_name>
+         <trigger_call>CPPTEST_ACTUAL_CALL(&quot;Account::getBalance&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;__return&quot;, &amp;__return, tgr_double_type())-&gt;WithRefArg(&quot;__callOrig&quot;, &amp;__callOrig, tgr_int_type())-&gt;End()</trigger_call>
+         <post_trigger_call>CPPTEST_ACTUAL_AFTER_CALL(&quot;Account::getBalance&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;__return&quot;, &amp;__return, tgr_double_type())-&gt;End()</post_trigger_call>
+         <orig_call>getBalance()</orig_call>
+         <return_var_decl>double __return</return_var_decl>
+         <return_expression>0.0</return_expression>
+         <user_decl_header>Account.hxx</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="22" col="16"/>
+    </Function>
+    <Function id="_ZN7Account7depositEd" name="HAccountZHdepositFXdZ" decorated_name="double Account::deposit(double)" sorted_name="Account::deposit">
+      <definition type="orig" source="code" file_id="2" line="3" col="17"/>
+    </Function>
+    <Function id="_ZN7Account5debitEd" name="HAccountZFdebitFXdZ" decorated_name="double Account::debit(double)" sorted_name="Account::debit">
+      <definition type="orig" source="code" file_id="2" line="10" col="17"/>
+    </Function>
+</Symbols>
+

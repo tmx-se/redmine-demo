@@ -1,0 +1,35 @@
+<InputsDescription>
+    <Routine name="_ZN3ATM11viewAccountEiSs" dir="r_00000000040726F0" />
+    <Routine name="_ZN3ATM15fillUserRequestENS_11UserRequestEd" dir="r_00000000040731A0" />
+    <Routine name="_ZN3ATM8withdrawEd" dir="r_00000000040749D8" />
+    <Routine name="_ZN3ATM11makeDepositEd" dir="r_0000000004074118" />
+    <Routine name="_ZN3ATM11showBalanceEv" dir="r_0000000004073858" />
+    <Routine name="_ZN3ATMC9EP4BankP11BaseDisplay" dir="r_0000000004071C38" />
+    <Type name="char" dir="chr" />
+    <Type name="double" dir="dbl" />
+    <Type name="float" dir="flt" />
+    <Type name="int" dir="int" />
+    <Type name="long double" dir="ldbl" />
+    <Type name="long long" dir="llng" />
+    <Type name="long" dir="lng" />
+    <Type name="signed char" dir="schr" />
+    <Type name="short" dir="shrt" />
+    <Type name="string" dir="str" />
+    <Type name="unsigned char" dir="uchr" />
+    <Type name="unsigned int" dir="uint" />
+    <Type name="unsigned long long" dir="ullng" />
+    <Type name="unsigned long" dir="ulng" />
+    <Type name="unsigned short" dir="ushrt" />
+    <Type name="wstring" dir="wstr" />
+    <Type name="int" dir="t_0000000002B934E0" />
+    <Type name="_ZN3ATM11UserRequestE" dir="t_0000000004070620" />
+    <Type name="typedef:_ZSt6string" dir="t_0000000002C431D0" />
+    <Type name="double" dir="t_0000000002C9AED0" />
+    <Type name="_ZSs" dir="t_0000000002C42E80" />
+    <Type name="Account *" dir="t_0000000003BF8A28" />
+    <Type name="ATM" dir="t_0000000004070130" />
+    <Type name="Bank *" dir="t_0000000004071400" />
+    <Type name="Bank" dir="t_0000000003F95830" />
+    <Type name="BaseDisplay *" dir="t_00000000040716E0" />
+    <Type name="BaseDisplay" dir="t_000000000406FC68" />
+</InputsDescription>

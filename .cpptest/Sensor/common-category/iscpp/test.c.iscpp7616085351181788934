@@ -1,0 +1,6 @@
+fileName=C:\Parasoft_Tutorial\workspace_tutorial_tantai\Sensor\test.c
+isCpp=
+compilerOpts=-I"C:\Program Files\Parasoft\C++test\10.3.2\engine\runtime\include" -g -I. -DPARASOFT_CPPTEST
+compilerId=gcc_4_9
+workingDir=C:\Parasoft_Tutorial\workspace_tutorial_tantai\Sensor
+advancedOptionsHash=1237154733

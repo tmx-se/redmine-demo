@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><TestSuites formatVersion="1.0" toolName="C++Test">
+<TestSuite context="" name="BankTestCase">
+<HeaderFile name="C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\CppUnit\BankTestCase_1.h"/>
+<SourceFile name=""/>
+<TestCases>
+<TestCase name="testGetAccount"/>
+</TestCases>
+</TestSuite>
+</TestSuites>

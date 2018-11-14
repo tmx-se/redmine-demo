@@ -1,0 +1,170 @@
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>CODSTA-138
+<b>代入演算子 '=' が誤ったコンテキストで使用されている
+<l>12
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>CODSTA-138
+<b>代入演算子 '=' が誤ったコンテキストで使用されている
+<l>12
+<k>12
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>MISRA2004-14_9
+<b>関数 fillUserRequest の if 文の後にブロックがなければならない
+<l>20
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>MISRA2004-13_2
+<b>0 との比較テストは明示的に行うべきである
+<l>20
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>CODSTA-35
+<b>switch 文にデフォルト ブランチがない
+<l>21
+<k>9
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>MISRA2004-14_9
+<b>関数 fillUserRequest の if 文の後にブロックがなければならない
+<l>20
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>MISRA2004-6_3_b
+<b>基本数値型 int を使用するべきではない
+<l>10
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>MISRA2004-6_3_b
+<b>基本数値型 double を使用するべきではない
+<l>18
+<k>48
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>MISRA2004-6_3_b
+<b>基本数値型 double を使用するべきではない
+<l>34
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>MISRA2004-6_3_b
+<b>基本数値型 double を使用するべきではない
+<l>39
+<k>23
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>MISRA2004-6_3_b
+<b>基本数値型 double を使用するべきではない
+<l>41
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>MISRA2004-6_3_b
+<b>基本数値型 double を使用するべきではない
+<l>46
+<k>20
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+<c>MISRA2004-6_3_b
+<b>基本数値型 double を使用するべきではない
+<l>48
+<k>5
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\include\ATM.hxx
+<c>MISRA2004-6_3_b
+<b>基本数値型 int を使用するべきではない
+<l>24
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\include\ATM.hxx
+<c>MISRA2004-6_3_b
+<b>基本数値型 double を使用するべきではない
+<l>25
+<k>51
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\include\ATM.hxx
+<c>MISRA2004-6_3_b
+<b>基本数値型 double を使用するべきではない
+<l>30
+<k>26
+<s>false
+<N>
+<f>
+<L>0
+<->
+<F>C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\include\ATM.hxx
+<c>MISRA2004-6_3_b
+<b>基本数値型 double を使用するべきではない
+<l>31
+<k>23
+<s>false
+<N>
+<f>
+<L>0

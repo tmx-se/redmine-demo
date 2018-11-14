@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><SymbolsConfig formatVersion="1.0" toolName="C++Test">
+<Function id="_ZN3ATM8withdrawEd" type="orig"/>
+<Function id="_Znwj" type="orig"/>
+<Function id="_ZN7Account16setAccountNumberEi" type="orig"/>
+<Function id="_ZN7Account10getBalanceEv" type="orig"/>
+<Function id="_ZN11BaseDisplay11showBalanceEd" type="orig"/>
+<Function id="_ZN3ATM11makeDepositEd" type="orig"/>
+<Function id="_ZN7AccountC9Ev" type="orig"/>
+<Function id="_ZN7Account11getPasswordEv" type="orig"/>
+<Function id="_ZdlPv" type="orig"/>
+<Function id="_ZN11BaseDisplay14showInfoToUserEPKc" type="orig"/>
+<Function id="_ZN3ATM11showBalanceEv" type="orig"/>
+<Function id="_ZN7Account7depositEd" type="orig"/>
+<Function id="_ZN4Bank10getAccountEiSs" type="orig"/>
+</SymbolsConfig>

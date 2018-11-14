@@ -1,0 +1,13 @@
+xharness.routineManager "symbol_file=C:\Program Files\Parasoft\C++test\10.3.2\engine\runtime\include/*" command=setProperty property=ignored value=true
+edgtk.preprocessorExecutable gcc
+xharness.symbolsFile C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\Sensor\file-data\sensor.c752e65b5\adds\harness_symbols.xml
+xharness.unwantedDeclHeaderInAutoStubConfig sensor.c
+xharness.coverageMapFile C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\Sensor\file-data\sensor.c752e65b5\adds\new_coverage.map
+xharness.preIncludeHeader C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\Sensor\unit-data\current_tubf179707\cpptest_stubconfig.h
+xharness.useFunctionHitCount true
+xharness.useStatementHitCount true
+xharness.proxyStubCall false
+xharness.routineManager symbol_file=* command=setProperty property=canCreateStubsIn value=off
+xharness.routineManager "symbol_file=C:\Parasoft_Tutorial\workspace_tutorial_tantai\Sensor\sensor.c" command=setProperty property=canCreateStubsIn value=on
+xharness.routineManager symbol_file=* command=setProperty property=canAddCoverageIn value=off
+xharness.routineManager "symbol_file=C:\Parasoft_Tutorial\workspace_tutorial_tantai\Sensor\sensor.c" command=setProperty property=canAddCoverageIn value=on

@@ -1,0 +1,14 @@
+#Test suite file data.
+#Mon Aug 21 17:53:06 JST 2017
+test_suite_additional_stubs=
+test_cases_properties=TestSuite_Account_hxx_77fe0d42,test_Account_1;GRS\=@@PPS@@TCC\=Account\:\:Account(double)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_Account_2;GRS\=@@PPS@@TCC\=Account\:\:Account(double)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_Account_4;GRS\=@@PPS@@TCC\=Account\:\:Account(void)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_getAccountNumber_1;GRS\=@@PPS@@TCC\=int Account\:\:getAccountNumber(void) const@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_getAccountNumber_2;GRS\=@@PPS@@TCC\=int Account\:\:getAccountNumber(void) const@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_getBalance_1;GRS\=@@PPS@@TCC\=double Account\:\:getBalance(void)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_getBalance_2;GRS\=@@PPS@@TCC\=double Account\:\:getBalance(void)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_getPassword_1;GRS\=@@PPS@@TCC\=const char * Account\:\:getPassword(void)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_getPassword_2;GRS\=@@PPS@@TCC\=const char * Account\:\:getPassword(void)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_setAccountNumber_1;GRS\=@@PPS@@TCC\=void Account\:\:setAccountNumber(int)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_setAccountNumber_2;GRS\=@@PPS@@TCC\=void Account\:\:setAccountNumber(int)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_setPassword_1;GRS\=@@PPS@@TCC\=void Account\:\:setPassword(const char *)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_setPassword_2;GRS\=@@PPS@@TCC\=void Account\:\:setPassword(const char *)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@@@TSS@@
+test_case_contexts=void Account\:\:setPassword(const char *)@@TCC@@double Account\:\:getBalance(void)@@TCC@@const char * Account\:\:getPassword(void)@@TCC@@Account\:\:Account(double)@@TCC@@Account\:\:Account(void)@@TCC@@void Account\:\:setAccountNumber(int)@@TCC@@int Account\:\:getAccountNumber(void) const@@TCC@@
+test_suite_included_by=/ATM/ATM.cxx
+test_suites=TestSuite_Account_hxx_77fe0d42,test_Account_1^1'@@TCS@@test_Account_2^1'@@TCS@@test_Account_4^1'@@TCS@@test_getAccountNumber_1^1'@@TCS@@test_getAccountNumber_2^1'@@TCS@@test_getBalance_1^1'@@TCS@@test_getBalance_2^1'@@TCS@@test_getPassword_1^1'@@TCS@@test_getPassword_2^1'@@TCS@@test_setAccountNumber_1^1'@@TCS@@test_setAccountNumber_2^1'@@TCS@@test_setPassword_1^1'@@TCS@@test_setPassword_2^1'@@TCS@@@@TSS@@
+registered=true
+test_suite_context=/ATM/include/Account.hxx
+fileVersion=5
+test_suite_description=
+test_suite_names=TestSuite_Account_hxx_77fe0d42@@TSN@@
+defined=true
+timestamp=1502850505491

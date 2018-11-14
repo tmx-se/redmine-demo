@@ -1,0 +1,5 @@
+xharness.routineManager symbol_file=* command=setProperty property=ignored value=true
+xharness.routineManager "symbol_file=C:\Parasoft_Tutorial\workspace_tutorial_tantai\Sensor\test.c" command=setProperty property=ignored value=false
+xharness.variableManager symbol_file=* command=setProperty property=ignored value=true
+xharness.variableManager "symbol_file=C:\Parasoft_Tutorial\workspace_tutorial_tantai\Sensor\test.c" command=setProperty property=ignored value=false
+edg.multibyte_chars_in_source_enabled TRUE

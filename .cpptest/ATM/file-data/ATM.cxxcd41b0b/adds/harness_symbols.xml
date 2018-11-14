@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <TranslationUnitId>3620956149_21064_4074261758</TranslationUnitId>
+    <HasCoverageInfo>true</HasCoverageInfo>
+    <File name="C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx" id="2"/>
+    <File name="C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\include\Account.hxx" id="1"/>
+    <Function id="_ZN7Account10getBalanceEv" name="HAccountZKgetBalanceFXvZ" decorated_name="double Account::getBalance(void)" sorted_name="Account::getBalance" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>double (::Account::</declaration_prefix>
+         <declaration_suffix>_Stub_getBalance) (void) </declaration_suffix>
+         <trigger_name>Account::getBalance</trigger_name>
+         <trigger_call>CPPTEST_ACTUAL_CALL(&quot;Account::getBalance&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;__return&quot;, &amp;__return, tgr_double_type())-&gt;WithRefArg(&quot;__callOrig&quot;, &amp;__callOrig, tgr_int_type())-&gt;End()</trigger_call>
+         <post_trigger_call>CPPTEST_ACTUAL_AFTER_CALL(&quot;Account::getBalance&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;__return&quot;, &amp;__return, tgr_double_type())-&gt;End()</post_trigger_call>
+         <orig_call>getBalance()</orig_call>
+         <return_var_decl>double __return</return_var_decl>
+         <return_expression>0.0</return_expression>
+         <user_decl_header>Account.hxx</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="1" line="22" col="16"/>
+    </Function>
+    <Function id="_ZN7Account7depositEd" name="HAccountZHdepositFXdZ" decorated_name="double Account::deposit(double)" sorted_name="Account::deposit" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>double (::Account::</declaration_prefix>
+         <declaration_suffix>_Stub_deposit) (double amount) </declaration_suffix>
+         <trigger_name>Account::deposit</trigger_name>
+         <trigger_call>CPPTEST_ACTUAL_CALL(&quot;Account::deposit&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;amount&quot;, &amp;amount, tgr_double_type())-&gt;WithRefArg(&quot;__return&quot;, &amp;__return, tgr_double_type())-&gt;WithRefArg(&quot;__callOrig&quot;, &amp;__callOrig, tgr_int_type())-&gt;End()</trigger_call>
+         <post_trigger_call>CPPTEST_ACTUAL_AFTER_CALL(&quot;Account::deposit&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;amount&quot;, &amp;amount, tgr_double_type())-&gt;WithRefArg(&quot;__return&quot;, &amp;__return, tgr_double_type())-&gt;End()</post_trigger_call>
+         <orig_call>deposit(amount)</orig_call>
+         <return_var_decl>double __return</return_var_decl>
+         <return_expression>0.0</return_expression>
+         <user_decl_header>Account.hxx</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="_ZN4Bank10getAccountEiSs" name="EBankZKgetAccountFXiCDstdTMbasic_stringcCDstdTLchar_traitscZZCDstdTJallocatorcZZZZZ" decorated_name="Account * Bank::getAccount(int, std::string)" sorted_name="Bank::getAccount" stub_used="true" needed="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>::Account * (::Bank::</declaration_prefix>
+         <declaration_suffix>_Stub_getAccount) (int num, ::std::string password) </declaration_suffix>
+         <trigger_name>Bank::getAccount</trigger_name>
+         <trigger_call>CPPTEST_ACTUAL_CALL(&quot;Bank::getAccount&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;num&quot;, &amp;num, tgr_int_type())-&gt;WithPtrArg(&quot;password&quot;, &amp;password, tgr_void_type())-&gt;WithRefArg(&quot;__return&quot;, &amp;__return, tgr_ptr_type(tgr_void_type()))-&gt;WithRefArg(&quot;__callOrig&quot;, &amp;__callOrig, tgr_int_type())-&gt;End()</trigger_call>
+         <post_trigger_call>CPPTEST_ACTUAL_AFTER_CALL(&quot;Bank::getAccount&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;num&quot;, &amp;num, tgr_int_type())-&gt;WithPtrArg(&quot;password&quot;, &amp;password, tgr_void_type())-&gt;WithRefArg(&quot;__return&quot;, &amp;__return, tgr_ptr_type(tgr_void_type()))-&gt;End()</post_trigger_call>
+         <orig_call>getAccount(num, password)</orig_call>
+         <return_var_decl>::Account * __return</return_var_decl>
+         <return_expression>0</return_expression>
+         <user_decl_header>Bank.hxx</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="_ZN11BaseDisplay14showInfoToUserEPKc" name="LBaseDisplayZOshowInfoToUserFXPKcZ" decorated_name="virtual void BaseDisplay::showInfoToUser(const char *)" sorted_name="BaseDisplay::showInfoToUser" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>void (::BaseDisplay::</declaration_prefix>
+         <declaration_suffix>_Stub_showInfoToUser) (const char * message) </declaration_suffix>
+         <trigger_name>BaseDisplay::showInfoToUser</trigger_name>
+         <trigger_call>CPPTEST_ACTUAL_CALL(&quot;BaseDisplay::showInfoToUser&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;message&quot;, &amp;message, tgr_ptr_type(tgr_char_type()))-&gt;WithRefArg(&quot;__callOrig&quot;, &amp;__callOrig, tgr_int_type())-&gt;End()</trigger_call>
+         <post_trigger_call>CPPTEST_ACTUAL_AFTER_CALL(&quot;BaseDisplay::showInfoToUser&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;message&quot;, &amp;message, tgr_ptr_type(tgr_char_type()))-&gt;End()</post_trigger_call>
+         <orig_call>BaseDisplay::showInfoToUser(message)</orig_call>
+         <user_decl_header>BaseDisplay.hxx</user_decl_header>
+      </stub_declaration>
+      <dependencies>_ZN11BaseDisplay11showBalanceEd</dependencies>
+    </Function>
+    <Function id="_ZN11BaseDisplay11showBalanceEd" name="LBaseDisplayZLshowBalanceFXdZ" decorated_name="virtual void BaseDisplay::showBalance(double)" sorted_name="BaseDisplay::showBalance" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>void (::BaseDisplay::</declaration_prefix>
+         <declaration_suffix>_Stub_showBalance) (double balance) </declaration_suffix>
+         <trigger_name>BaseDisplay::showBalance</trigger_name>
+         <trigger_call>CPPTEST_ACTUAL_CALL(&quot;BaseDisplay::showBalance&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;balance&quot;, &amp;balance, tgr_double_type())-&gt;WithRefArg(&quot;__callOrig&quot;, &amp;__callOrig, tgr_int_type())-&gt;End()</trigger_call>
+         <post_trigger_call>CPPTEST_ACTUAL_AFTER_CALL(&quot;BaseDisplay::showBalance&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;balance&quot;, &amp;balance, tgr_double_type())-&gt;End()</post_trigger_call>
+         <orig_call>BaseDisplay::showBalance(balance)</orig_call>
+         <user_decl_header>BaseDisplay.hxx</user_decl_header>
+      </stub_declaration>
+    </Function>
+    <Function id="_ZN3ATMC9EP4BankP11BaseDisplay" name="DATMZ0FXPCEBankZPCLBaseDisplayZZ" decorated_name="ATM::ATM(Bank *, BaseDisplay *)" sorted_name="ATM::ATM">
+      <definition type="orig" source="code" file_id="2" line="4" col="6"/>
+    </Function>
+    <Function id="_ZN3ATM11viewAccountEiSs" name="DATMZLviewAccountFXiCDstdTMbasic_stringcCDstdTLchar_traitscZZCDstdTJallocatorcZZZZZ" decorated_name="void ATM::viewAccount(int, std::string)" sorted_name="ATM::viewAccount">
+      <definition type="orig" source="code" file_id="2" line="10" col="11"/>
+    </Function>
+    <Function id="_ZN3ATM15fillUserRequestENS_11UserRequestEd" name="DATMZPfillUserRequestFXCDATMLUserRequestZdZ" decorated_name="void ATM::fillUserRequest(ATM::UserRequest, double)" sorted_name="ATM::fillUserRequest">
+      <definition type="orig" source="code" file_id="2" line="18" col="11"/>
+    </Function>
+    <Function id="_ZN3ATM11showBalanceEv" name="DATMZLshowBalanceFXvZ" decorated_name="void ATM::showBalance(void)" sorted_name="ATM::showBalance" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>void (::ATM::</declaration_prefix>
+         <declaration_suffix>_Stub_showBalance) (void) </declaration_suffix>
+         <trigger_name>ATM::showBalance</trigger_name>
+         <trigger_call>CPPTEST_ACTUAL_CALL(&quot;ATM::showBalance&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;__callOrig&quot;, &amp;__callOrig, tgr_int_type())-&gt;End()</trigger_call>
+         <post_trigger_call>CPPTEST_ACTUAL_AFTER_CALL(&quot;ATM::showBalance&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;End()</post_trigger_call>
+         <orig_call>showBalance()</orig_call>
+         <user_decl_header>ATM.hxx</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="2" line="32" col="11"/>
+    </Function>
+    <Function id="_ZN3ATM11makeDepositEd" name="DATMZLmakeDepositFXdZ" decorated_name="void ATM::makeDeposit(double)" sorted_name="ATM::makeDeposit" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>void (::ATM::</declaration_prefix>
+         <declaration_suffix>_Stub_makeDeposit) (double amount) </declaration_suffix>
+         <trigger_name>ATM::makeDeposit</trigger_name>
+         <trigger_call>CPPTEST_ACTUAL_CALL(&quot;ATM::makeDeposit&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;amount&quot;, &amp;amount, tgr_double_type())-&gt;WithRefArg(&quot;__callOrig&quot;, &amp;__callOrig, tgr_int_type())-&gt;End()</trigger_call>
+         <post_trigger_call>CPPTEST_ACTUAL_AFTER_CALL(&quot;ATM::makeDeposit&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;amount&quot;, &amp;amount, tgr_double_type())-&gt;End()</post_trigger_call>
+         <orig_call>makeDeposit(amount)</orig_call>
+         <user_decl_header>ATM.hxx</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="2" line="39" col="11"/>
+    </Function>
+    <Function id="_ZN3ATM8withdrawEd" name="DATMZIwithdrawFXdZ" decorated_name="void ATM::withdraw(double)" sorted_name="ATM::withdraw" stub_used="true">
+      <stub_declaration complete="true">
+         <declaration_prefix>void (::ATM::</declaration_prefix>
+         <declaration_suffix>_Stub_withdraw) (double amount) </declaration_suffix>
+         <trigger_name>ATM::withdraw</trigger_name>
+         <trigger_call>CPPTEST_ACTUAL_CALL(&quot;ATM::withdraw&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;amount&quot;, &amp;amount, tgr_double_type())-&gt;WithRefArg(&quot;__callOrig&quot;, &amp;__callOrig, tgr_int_type())-&gt;End()</trigger_call>
+         <post_trigger_call>CPPTEST_ACTUAL_AFTER_CALL(&quot;ATM::withdraw&quot;)-&gt;WithPtrArg(&quot;this&quot;, this, tgr_void_type())-&gt;WithRefArg(&quot;amount&quot;, &amp;amount, tgr_double_type())-&gt;End()</post_trigger_call>
+         <orig_call>withdraw(amount)</orig_call>
+         <user_decl_header>ATM.hxx</user_decl_header>
+      </stub_declaration>
+      <definition type="orig" source="code" file_id="2" line="46" col="11"/>
+    </Function>
+    <Variable name="DstdTMbasic_stringcCDstdTLchar_traitscZZCDstdTJallocatorcZZZE_RepZbE_S_empty_rep_storageX" id="_ZNSs4_Rep20_S_empty_rep_storageE" decorated_name="std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type  (::std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::_Rep::_S_empty_rep_storage)[]" sorted_name="::std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::_Rep::_S_empty_rep_storage[]">
+      <definition type="orig" source="template"/>
+    </Variable>
+</Symbols>
+

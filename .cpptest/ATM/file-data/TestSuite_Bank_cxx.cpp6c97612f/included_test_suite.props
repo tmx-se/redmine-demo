@@ -1,0 +1,14 @@
+#Test suite file data.
+#Mon Aug 21 17:53:06 JST 2017
+test_suite_additional_stubs=
+test_cases_properties=TestSuite_Bank_cxx_8cde4201,test_Bank_1;GRS\=@@PPS@@TCC\=Bank\:\:Bank(void)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_addAccount_1;GRS\=@@PPS@@TCC\=Account * Bank\:\:addAccount(void)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_getAccount_1;GRS\=@@PPS@@TCC\=Account * Bank\:\:getAccount(int, std\:\:string)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_getAccount_2;GRS\=@@PPS@@TCC\=Account * Bank\:\:getAccount(int, std\:\:string)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_x7eBank_1;GRS\=@@PPS@@TCC\=Bank\:\:~Bank(void)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@@@TSS@@
+test_case_contexts=Account * Bank\:\:addAccount(void)@@TCC@@Bank\:\:~Bank(void)@@TCC@@Account * Bank\:\:getAccount(int, std\:\:string)@@TCC@@Bank\:\:Bank(void)@@TCC@@
+test_suite_included_by=/ATM/Bank.cxx
+test_suites=TestSuite_Bank_cxx_8cde4201,test_Bank_1^1'@@TCS@@test_addAccount_1^1'@@TCS@@test_getAccount_1^1'@@TCS@@test_getAccount_2^1'@@TCS@@test_x7eBank_1^1'@@TCS@@@@TSS@@
+registered=true
+test_suite_context=/ATM/Bank.cxx
+fileVersion=5
+test_suite_description=
+test_suite_names=TestSuite_Bank_cxx_8cde4201@@TSN@@
+defined=true
+timestamp=1502852071991

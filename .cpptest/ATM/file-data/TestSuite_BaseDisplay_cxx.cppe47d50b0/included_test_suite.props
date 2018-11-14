@@ -1,0 +1,14 @@
+#Test suite file data.
+#Mon Aug 21 17:53:06 JST 2017
+test_suite_additional_stubs=
+test_cases_properties=TestSuite_BaseDisplay_cxx_42f85501,test_showBalance_1;GRS\=@@PPS@@TCC\=virtual void BaseDisplay\:\:showBalance(double)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_showBalance_2;GRS\=@@PPS@@TCC\=virtual void BaseDisplay\:\:showBalance(double)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_showInfoToUser_1;GRS\=@@PPS@@TCC\=virtual void BaseDisplay\:\:showInfoToUser(const char *)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@test_showInfoToUser_2;GRS\=@@PPS@@TCC\=virtual void BaseDisplay\:\:showInfoToUser(const char *)@@PPS@@TCD\=@@PPS@@TCE\=false@@PPS@@@@TCS@@@@TSS@@
+test_case_contexts=virtual void BaseDisplay\:\:showInfoToUser(const char *)@@TCC@@virtual void BaseDisplay\:\:showBalance(double)@@TCC@@
+test_suite_included_by=/ATM/BaseDisplay.cxx
+test_suites=TestSuite_BaseDisplay_cxx_42f85501,test_showBalance_1^1'@@TCS@@test_showBalance_2^1'@@TCS@@test_showInfoToUser_1^1'@@TCS@@test_showInfoToUser_2^1'@@TCS@@@@TSS@@
+registered=true
+test_suite_context=/ATM/BaseDisplay.cxx
+fileVersion=5
+test_suite_description=
+test_suite_names=TestSuite_BaseDisplay_cxx_42f85501@@TSN@@
+defined=true
+timestamp=1502849810305

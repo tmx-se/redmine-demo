@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LibrarySymbols tool="C++Test" formatVersion="1.0" source="C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\ATM\file-data\ATM.cxxcd41b0b\ATM.o">
+    <Symbol name="__ZN7Account10getBalanceEv" remangled="HAccountZKgetBalanceFXvZ"/>
+    <Symbol name="__ZN3ATMC2EP4BankP11BaseDisplay" remangled="DATMZ0FXPCEBankZPCLBaseDisplayZZ"/>
+    <Symbol name="__ZN3ATMC1EP4BankP11BaseDisplay" remangled="DATMZ0FXPCEBankZPCLBaseDisplayZZ"/>
+    <Symbol name="__ZN3ATM11viewAccountEiSs" remangled="DATMZLviewAccountFXiCDstdTMbasic_stringcCDstdTLchar_traitscZZCDstdTJallocatorcZZZZZ"/>
+    <Symbol name="__ZN3ATM15fillUserRequestENS_11UserRequestEd" remangled="DATMZPfillUserRequestFXCDATMLUserRequestZdZ"/>
+    <Symbol name="__ZN3ATM11showBalanceEv" remangled="DATMZLshowBalanceFXvZ"/>
+    <Symbol name="__ZN3ATM11makeDepositEd" remangled="DATMZLmakeDepositFXdZ"/>
+    <Symbol name="__ZN3ATM8withdrawEd" remangled="DATMZIwithdrawFXdZ"/>
+</LibrarySymbols>

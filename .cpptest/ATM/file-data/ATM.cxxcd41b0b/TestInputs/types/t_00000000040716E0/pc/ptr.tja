@@ -1,0 +1,106 @@
+$
+#<Template name="Pointer type post-condition check">
+#    <Properties>
+#        <Property key="FLATTEN_IN_WIZARD" />
+#    </Properties> 
+#    <Inputs>
+#        <Input name="USE_WIZARD_ASSERTIONS" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.UseWizardAssertionsProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="EXPECTED_VALUE" type="string" >
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.generator.tja.ItemChooserProvider">
+#				 <Argument name="VALUE" value="ACTUAL" />
+#                <Argument name="VALUE" value="NULL"/>
+#                <Argument name="VALUE" value="NOT NULL"/>
+#            </Source>
+#            <Properties>
+#                <Property key="DISABLE_IN_AUTOGEN"/>
+#                <Property key="FLATTENED_GROUP"/>
+#            </Properties>
+#        </Input>
+#        <Input name="GENERATE_XML" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.GenerateXmlProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#    </Inputs>
+#</Template>
+\$
+$if GENERATE_XML == "TRUE":\$
+$if KIND == "POST_COND":\$
+$  if TYPENAME != "":\$
+<step id="CodeStep"><code><![CDATA[$INDENT$CPPTEST_POST_CONDITION_PTR("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ));]]></code></step>
+$  else:\$
+<step id="CodeStep"><code><![CDATA[$INDENT$CPPTEST_POST_CONDITION_PTR("$MSG_PREFIX$BaseDisplay * $VAR_NAME$ ", ( $VAR_NAME$ ));]]></code></step>
+$  end\$
+$elif KIND == "PREPOST_REPORT":\$
+$  if TYPENAME != "":\$
+<step id="CodeStep"><code><![CDATA[$INDENT$CPPTEST_REPORT_PTR("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ));]]></code></step>
+$  else:\$
+<step id="CodeStep"><code><![CDATA[$INDENT$CPPTEST_REPORT_PTR("$MSG_PREFIX$BaseDisplay * $VAR_NAME$ ", ( $VAR_NAME$ ));]]></code></step>
+$  end\$
+$elif KIND == "POST_ASSERT":\$
+$  if USE_WIZARD_ASSERTIONS == "TRUE":\$
+$    if EXPECTED_VALUE == "ACTUAL":\$
+$      if TYPENAME != "":\$
+<step id="CodeStep"><code><![CDATA[$INDENT$CPPTEST_POST_CONDITION_PTR("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ));]]></code></step>
+$      else:\$
+<step id="CodeStep"><code><![CDATA[$INDENT$CPPTEST_POST_CONDITION_PTR("$MSG_PREFIX$BaseDisplay * $VAR_NAME$ ", ( $VAR_NAME$ ));]]></code></step>
+$      end\$
+$    elif EXPECTED_VALUE == "NULL":\$
+<step id="AssertionStep">
+  <type>CPPTEST_ASSERT_PTR_EQUAL</type>
+  <P1>0</P1>
+  <P2>$VAR_NAME$</P2>
+</step>
+$    else:\$
+<step id="AssertionStep">
+  <type>CPPTEST_ASSERT</type>
+  <P1>0 != $VAR_NAME$</P1>
+</step>
+$    end\$
+$  else:\$
+<step id="AssertionStep">
+  <type>CPPTEST_ASSERT_PTR_EQUAL</type>
+  <P1>0</P1>
+  <P2>$VAR_NAME$</P2>
+</step>
+$  end\$
+$end\$
+$else:\$
+$if KIND == "POST_COND":\$
+$  if TYPENAME != "":\$
+$INDENT$CPPTEST_POST_CONDITION_PTR("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ));
+$  else:\$
+$INDENT$CPPTEST_POST_CONDITION_PTR("$MSG_PREFIX$BaseDisplay * $VAR_NAME$ ", ( $VAR_NAME$ ));
+$  end\$
+$elif KIND == "PREPOST_REPORT":\$
+$  if TYPENAME != "":\$
+$INDENT$CPPTEST_REPORT_PTR("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ));
+$  else:\$
+$INDENT$CPPTEST_REPORT_PTR("$MSG_PREFIX$BaseDisplay * $VAR_NAME$ ", ( $VAR_NAME$ ));
+$  end\$
+$elif KIND == "POST_ASSERT":\$
+$  if USE_WIZARD_ASSERTIONS == "TRUE":\$
+$    if EXPECTED_VALUE == "ACTUAL":\$
+$      if TYPENAME != "":\$
+$INDENT$CPPTEST_POST_CONDITION_PTR("$MSG_PREFIX$$TYPENAME$ $VAR_NAME$", ( $VAR_NAME$ ));
+$      else:\$
+$INDENT$CPPTEST_POST_CONDITION_PTR("$MSG_PREFIX$BaseDisplay * $VAR_NAME$ ", ( $VAR_NAME$ ));
+$      end\$
+$    elif EXPECTED_VALUE == "NULL":\$
+$INDENT$CPPTEST_ASSERT_EQUAL(0, ( $VAR_NAME$ ) );
+$    else:\$
+$INDENT$CPPTEST_ASSERT(0 != ( $VAR_NAME$ ) );
+$    end\$
+$  else:\$
+$INDENT$// CPPTEST_ASSERT_EQUAL(0, ( $VAR_NAME$ ) );
+$  end\$
+$end\$
+$end\$

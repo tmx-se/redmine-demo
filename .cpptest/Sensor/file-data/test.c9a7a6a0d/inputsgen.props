@@ -1,0 +1,6 @@
+#Properties of inputs generation process
+#Tue Aug 22 10:45:26 JST 2017
+cmdLine="C\:\\Program Files\\Parasoft\\C++test\\10.3.2\\engine\\bin\\xharness.exe" --native-options-start -I"C\:\\Program Files\\Parasoft\\C++test\\10.3.2\\engine\\runtime\\include" -g -I. -DPARASOFT_CPPTEST --native-options-end "--input\=C\:\\Parasoft_Tutorial\\workspace_tutorial_tantai\\Sensor\\test.c" "--compiler-cfg-file\=C\:\\Program Files\\Parasoft\\C++test\\10.3.2\\engine\\etc\\compilers\\gcc_4_9\\c.psrc" --preprocessorExecutable\=gcc "--psrc\=C\:\\Program Files\\Parasoft\\C++test\\10.3.2\\engine\\etc\\xharness_features_testcases.psrc" "--testcase-inputs-dir\=C\:\\Parasoft_Tutorial\\workspace_tutorial_tantai\\.cpptest\\Sensor\\file-data\\test.c9a7a6a0d\\TestInputs" "--psrc\=C\:\\Parasoft_Tutorial\\workspace_tutorial_tantai\\.cpptest\\Sensor\\file-data\\test.c9a7a6a0d\\inputsgen_adv_opts.psrc"
+advOptsFileHash=491385637
+incFilesHash=-1593742270
+contextFileTimestamp=1503365710268

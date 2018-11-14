@@ -1,0 +1,10 @@
+file=C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx
+compiler=gcc_4_9
+working_dir=C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM
+arg=g++
+arg=-IC:\Program Files\Parasoft\C++test\10.3.2\engine\runtime\include
+arg=-g
+arg=-Iinclude
+arg=-c
+arg=-DPARASOFT_CPPTEST
+arg=C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\ATM.cxx

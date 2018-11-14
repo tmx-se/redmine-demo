@@ -1,0 +1,30 @@
+$
+#<Template name="Bank(void) (heap allocation)">
+#    <Inputs>
+#        <Input name="UNIQUE_ID" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.TestCaseUniqueIdProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#        <Input name="GENERATE_XML" type="string">
+#            <Source location="builtin://com.parasoft.xtest.testgen.api.cpp.GenerateXmlProvider">
+#            </Source>
+#            <Properties>
+#                <Property key="HIDE_IN_WIZARD"/>
+#            </Properties>
+#        </Input>
+#    </Inputs>
+#    <Properties>
+#        <Property key="CREATE_OBJECTS_ON_HEAP"/>
+#        <Property key="USE_UNDEFINED_CTORS" />
+#        <Property key="USE_UNUSED_CTORS" />
+#    </Properties> 
+#</Template>
+\$
+$if GENERATE_XML == "TRUE":\$
+<step id="VariableStep">
+<type><![CDATA[::Bank *]]></type><name>$VAR_NAME$ </name><value>new ::Bank()</value></step>
+$else:\$
+$INDENT$::Bank * $VAR_NAME$  = new ::Bank ();$end$

@@ -1,0 +1,14 @@
+#Test suite file data.
+#Wed Aug 16 15:32:21 JST 2017
+test_suite_additional_stubs=
+test_cases_properties=
+test_case_contexts=
+test_suite_included_by=
+test_suites=BankTestCase,testGetAccount^0'@@TCS@@@@TSS@@
+registered=false
+test_suite_context=
+fileVersion=5
+test_suite_description=
+test_suite_names=BankTestCase@@TSN@@
+defined=true
+timestamp=1496039446000

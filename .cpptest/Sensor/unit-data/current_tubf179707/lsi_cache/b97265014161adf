@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LibrarySymbols tool="C++Test" formatVersion="1.0" source="C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\Sensor\file-data\sensor.c752e65b5\sensor.o">
+    <Symbol name="_readSensor" remangled="ZKreadSensorX"/>
+    <Symbol name="_initialize" remangled="ZKinitializeX"/>
+    <Symbol name="_finalize" remangled="ZIfinalizeX"/>
+    <Symbol name="_printMessage" remangled="ZMprintMessageX"/>
+    <Symbol name="_reportSensorFailure" remangled="ZbDreportSensorFailureX"/>
+    <Symbol name="_handleSensorValue" remangled="ZbBhandleSensorValueX"/>
+    <Symbol name="_mainLoop" remangled="ZImainLoopX"/>
+    <Symbol name="_main" remangled="ZEmainX"/>
+    <Symbol name="_STATUS_OK" remangled="ZJSTATUS_OKX"/>
+    <Symbol name="_STATUS_FAILED" remangled="ZNSTATUS_FAILEDX"/>
+    <Symbol name="_STATUS_STOPPED" remangled="ZOSTATUS_STOPPEDX"/>
+    <Symbol name="_MAX_NUMBER_OF_SAMPLES" remangled="ZbFMAX_NUMBER_OF_SAMPLESX"/>
+    <Symbol name="_messages" remangled="ZImessagesX"/>
+</LibrarySymbols>

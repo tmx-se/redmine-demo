@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Symbols version="2.0">
+    <TranslationUnitId>3022957564_19168_67134033</TranslationUnitId>
+    <HasCoverageInfo>true</HasCoverageInfo>
+    <File name="C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\tests\usergenerated\TestSuite_Account_DS.cpp" id="1"/>
+    <Function id="TestSuite_Account_DS_testSuiteBegin" name="ZcDTestSuite_Account_DS_testSuiteBeginX" decorated_name="void TestSuite_Account_DS_testSuiteBegin(void)" sorted_name="TestSuite_Account_DS_testSuiteBegin">
+      <definition type="orig" source="code" file_id="1" line="17" col="87"/>
+    </Function>
+    <Function id="TestSuite_Account_DS_callTest" name="ZbNTestSuite_Account_DS_callTestX" decorated_name="int TestSuite_Account_DS_callTest(const char *)" sorted_name="TestSuite_Account_DS_callTest">
+      <definition type="orig" source="code" file_id="1" line="17" col="188"/>
+    </Function>
+    <Variable name="DstdTMbasic_stringcCDstdTLchar_traitscZZCDstdTJallocatorcZZZE_RepZbE_S_empty_rep_storageX" id="_ZNSs4_Rep20_S_empty_rep_storageE" decorated_name="std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::size_type  (::std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::_Rep::_S_empty_rep_storage)[]" sorted_name="::std::basic_string&lt;char, std::char_traits&lt;char&gt;, std::allocator&lt;char&gt;&gt;::_Rep::_S_empty_rep_storage[]">
+      <definition type="orig" source="template"/>
+    </Variable>
+</Symbols>
+
