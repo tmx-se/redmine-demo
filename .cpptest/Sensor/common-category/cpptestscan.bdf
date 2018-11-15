@@ -1,9 +1,0 @@
-------- cpptestscan v.10.3.2.20170511B1261 -------
-working_dir=C:\Parasoft_Tutorial\workspace_tutorial_tantai\Sensor
-project_name=Sensor
-arg=-g
-arg=-I.
-arg=-o
-arg=sensor.exe
-arg=sensor.c
-arg=test.c

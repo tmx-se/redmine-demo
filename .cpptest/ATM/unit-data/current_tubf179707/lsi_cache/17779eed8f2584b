@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<LibrarySymbols tool="C++Test" formatVersion="1.0" source="C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\ATM\file-data\Account.cxx1542ef1e\Account.o">
-    <Symbol name="__ZN7Account10getBalanceEv" remangled="HAccountZKgetBalanceFXvZ"/>
-    <Symbol name="__ZN7Account7depositEd" remangled="HAccountZHdepositFXdZ"/>
-    <Symbol name="__ZN7Account5debitEd" remangled="HAccountZFdebitFXdZ"/>
-</LibrarySymbols>

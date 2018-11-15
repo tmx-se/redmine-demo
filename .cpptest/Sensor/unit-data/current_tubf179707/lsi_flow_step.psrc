@@ -1,9 +1,0 @@
-xharness.routineManager "symbol_file=C:\Program Files\Parasoft\C++test\10.3.2\engine\runtime\include/*" command=setProperty property=ignored value=true
-libdetector.ldvLinkerExecutable g++
-symmatcher.storeConfig C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\Sensor\unit-data\current_tubf179707\lsi_result
-lsi.symbolsFile C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\Sensor\file-data\test.c9a7a6a0d\tested\harness_symbols.xml
-lsi.symbolsFile C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\Sensor\file-data\sensor.c752e65b5\adds\harness_symbols.xml
-lsi.symbolsFile C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\Sensor\file-data\auto_5327593c.c3885783d\harness_symbols.xml
-libdetector.doDetectLibraries on
-symmatcher.doAssumeAllInLibraries off
-lsi.cacheDir C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\Sensor\unit-data\current_tubf179707\lsi_cache

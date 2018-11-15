@@ -1,6 +1,0 @@
-fileName=C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM\Bank.cxx
-isCpp=
-compilerOpts=-I"C:\Program Files\Parasoft\C++test\10.3.2\engine\runtime\include" -g -Iinclude -c -DPARASOFT_CPPTEST
-compilerId=gcc_4_9
-workingDir=C:\Parasoft_Tutorial\workspace_tutorial_tantai\ATM
-advancedOptionsHash=1237154733

@@ -1,6 +1,0 @@
-#Properties of inputs generation process
-#Wed Aug 16 14:58:02 JST 2017
-cmdLine="C\:\\Program Files\\Parasoft\\C++test\\10.3.2\\engine\\bin\\xharness.exe" --native-options-start -I"C\:\\Program Files\\Parasoft\\C++test\\10.3.2\\engine\\runtime\\include" -g -Iinclude -c -DPARASOFT_CPPTEST --native-options-end "--input\=C\:\\Parasoft_Tutorial\\workspace_tutorial_tantai\\ATM\\Bank.cxx" "--compiler-cfg-file\=C\:\\Program Files\\Parasoft\\C++test\\10.3.2\\engine\\etc\\compilers\\gcc_4_9\\cpp.psrc" --preprocessorExecutable\=g++ "--psrc\=C\:\\Program Files\\Parasoft\\C++test\\10.3.2\\engine\\etc\\xharness_features_testcases.psrc" --errorThreshold\=5 --native-options-start -w --native-options-end "--testcase-inputs-dir\=C\:\\Parasoft_Tutorial\\workspace_tutorial_tantai\\.cpptest\\ATM\\file-data\\Bank.cxxe0d495b5\\TestInputs" "--psrc\=C\:\\Parasoft_Tutorial\\workspace_tutorial_tantai\\.cpptest\\ATM\\file-data\\Bank.cxxe0d495b5\\inputsgen_adv_opts.psrc"
-advOptsFileHash=-1290647735
-incFilesHash=-1107120682
-contextFileTimestamp=1496039446000

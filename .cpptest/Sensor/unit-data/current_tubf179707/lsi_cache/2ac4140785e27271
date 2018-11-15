@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<LibrarySymbols tool="C++Test" formatVersion="1.0" source="C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\Sensor\file-data\test.c9a7a6a0d\test.o">
-    <Symbol name="_func1" remangled="ZFfunc1X"/>
-    <Symbol name="_g_test" remangled="ZGg_testX"/>
-</LibrarySymbols>

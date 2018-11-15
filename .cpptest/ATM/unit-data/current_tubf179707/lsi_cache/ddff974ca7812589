@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<LibrarySymbols tool="C++Test" formatVersion="1.0" source="C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\ATM\file-data\BaseDisplay.cxxa2cad1a2\BaseDisplay.o">
-    <Symbol name="__ZN11BaseDisplay14showInfoToUserEPKc" remangled="LBaseDisplayZOshowInfoToUserFXPKcZ"/>
-    <Symbol name="__ZN11BaseDisplay11showBalanceEd" remangled="LBaseDisplayZLshowBalanceFXdZ"/>
-</LibrarySymbols>

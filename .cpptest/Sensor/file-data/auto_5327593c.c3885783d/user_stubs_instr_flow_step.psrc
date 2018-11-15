@@ -1,8 +1,0 @@
-xharness.routineManager "symbol_file=C:\Program Files\Parasoft\C++test\10.3.2\engine\runtime\include/*" command=setProperty property=ignored value=true
-edgtk.preprocessorExecutable gcc
-xharness.symbolsFile C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\Sensor\file-data\auto_5327593c.c3885783d\harness_symbols.xml
-xharness.unwantedDeclHeaderInAutoStubConfig auto_5327593c.c
-xharness.preIncludeHeader C:\Parasoft_Tutorial\workspace_tutorial_tantai\.cpptest\Sensor\unit-data\current_tubf179707\cpptest_stubconfig.h
-xharness.useFunctionHitCount true
-xharness.useStatementHitCount true
-xharness.proxyStubCall false
