@@ -1,7 +1,7 @@
 CC=gcc
 FLAGS=-g -I.
 
-SRCS=sensor.c test.c
+SRCS=sensor.c 
 
 EXEC=sensor.exe
 
