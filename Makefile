@@ -1,17 +1,2 @@
-CC=gcc
-FLAGS=-g -I.
-
-SRCS=sensor.c 
-
-EXEC=sensor.exe
-
-.PHONY = clean all
-
-all : $(EXEC)
-
-$(EXEC) : $(SRCS)
-	$(CC) $(FLAGS) -o $@ $(SRCS)
-
-clean:
-	rm -rf $(EXEC)
-
+all:
+	$(CC) dbutil.c fileLeaks.c memoryLeaks.c divisionByZero.c useBeforeInit.c nullPointerDeref.c nullPointerDerefBenchmark.c arrayOutOfBounds.c bufferOverflow.c unreachableCode.c sqlInjection.c sql.c integerOverflow.c
