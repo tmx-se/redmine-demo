@@ -32,6 +32,6 @@ void handleRequest(SQLHSTMT statementHandle, FILE *file)
     strcat(request, requestPassword);
     strcat(request, extractPassword(parametersString));
     strcat(request, requestEnding);
-    SQLExecDirect(statementHandle, (SQLCHAR *)request, strlen(request));
+    sQLExecDirect(statementHandle, (SQLCHAR *)request, strlen(request));
 }
 
