@@ -9,4 +9,3 @@ SQLRETURN  SQL_API sQLExecDirect(SQLHSTMT StatementHandle,
 	/* Some implementation */
 	return 0;
 }
-
