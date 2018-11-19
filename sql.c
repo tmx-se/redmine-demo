@@ -3,7 +3,7 @@
 
 #include "sql.h"
 
-SQLRETURN  SQL_API sQLExecDirect(SQLHSTMT StatementHandle,
+SQLRETURN  SQL_API SQLExecDirect(SQLHSTMT StatementHandle,
            SQLCHAR *StatementText, SQLINTEGER TextLength)
 {
 	/* Some implementation */
