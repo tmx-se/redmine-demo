@@ -9,6 +9,7 @@
  
 void storePersonToFile(Person *person, FILE* file)
 {
+
     if (file!=NULL) {
         fprintf(file, "Id: %d Name: %s References:%s\n", 
         person->personalId, person->name, person->reference);
