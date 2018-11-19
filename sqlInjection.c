@@ -11,6 +11,7 @@ const char* requestEnding = "'";
 
 char* extractUsername(char* s)
 {
+	int a = 0;
 	/* Some implementation */
 	return s;
 }
