@@ -21,7 +21,7 @@ typedef short           SQLSMALLINT;
 typedef SQLSMALLINT     SQLRETURN;
 typedef SQLHANDLE       SQLHSTMT;
 
-SQLRETURN  SQL_API SQLExecDirect(SQLHSTMT StatementHandle,
+SQLRETURN  SQL_API sQLExecDirect(SQLHSTMT StatementHandle,
            SQLCHAR *StatementText, SQLINTEGER TextLength);
 
 #endif
