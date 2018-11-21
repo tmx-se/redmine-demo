@@ -17,6 +17,7 @@ char* extractUsername(char* s)
 
 char* extractPassword(char* s)
 {
+
 	/* Some implementation */
 	return s;
 }
