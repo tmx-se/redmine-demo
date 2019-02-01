@@ -51,3 +51,9 @@ void copyPersonFromFileToDB(char* filename)
     free(p);
 }
 
+
+void test(){
+	
+	int test
+}
+
