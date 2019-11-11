@@ -29,6 +29,7 @@ void writePersonToFile(Person *person, char* filename)
 
 void copyPersonFromFileToDB(char* filename)
 {
+	int a;
     Person* p;
     FILE *file;
     file = fopen(filename, "r");
@@ -49,5 +50,6 @@ void copyPersonFromFileToDB(char* filename)
     }
     storePersonToDB(p);
     free(p);
+
 }
 
