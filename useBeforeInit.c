@@ -52,4 +52,3 @@ void copyPersonFromFileToDB(char* filename)
     free(p);
 
 }
-aaa
